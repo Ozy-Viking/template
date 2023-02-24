@@ -88,6 +88,16 @@ class Number:
             power = power.x
         if isinstance(modulo, type(self)):
             modulo = modulo.x
-        if not isinstance(modulo, int):
+        if modulo is None:
+            return Number(self.x**power)
+        if (not isinstance(modulo, int)) and (modulo is not None):
             modulo = int(round(modulo))
         return Number((self.x**power) % modulo)
+
+    def __eq__(self, other):
+        if isinstance(other, type(self)):
+            return self.x == other.x
+        elif isinstance(other, int | float):
+            return self.x == other
+        else:
+            return NotImplemented

@@ -3,7 +3,7 @@ name = "template_package"
 version = "0.2.0"
 description = ""
 authors = ["ozy-viking <zthankin@gmail.com>"]
-readme = "README.rst"
+readme = "README.md"
 packages = [{include = "template_package"}]
 
 [tool.poetry.dependencies]
