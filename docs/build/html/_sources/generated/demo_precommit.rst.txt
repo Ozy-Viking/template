@@ -1,4 +1,0 @@
-﻿demo\_precommit
-===============
-
-.. automodule:: demo_precommit

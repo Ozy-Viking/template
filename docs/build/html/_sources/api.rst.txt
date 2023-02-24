@@ -1,7 +1,0 @@
-API
-===
-
-.. autosummary::
-   :toctree: generated
-
-    demo_precommit
