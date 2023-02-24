@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "template_package"
-version = "0.1.0"
+version = "0.2.0"
 description = ""
 authors = ["ozy-viking <zthankin@gmail.com>"]
 readme = "README.rst"
@@ -8,12 +8,20 @@ packages = [{include = "template_package"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
+
+[tool.poetry.group.dev]  # This part can be left out
+optional = true
+
+[tool.poetry.group.dev.dependencies]
+mypy = "^1.0.1"
 tox = "^4.4.6"
 pytest = "^7.2.1"
-mkdocs = "^1.4.2"
+
+[tool.poetry.group.docs]
+optional = true
+
+[tool.poetry.group.docs.dependencies]
 sphinx = "^6.1.3"
-pre-commit = "^3.1.0"
-mypy = "^1.0.1"
 sphinx-rtd-theme = "^1.2.0"
 
 [tool.mypy]
@@ -28,5 +36,3 @@ exclude = [
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
-
-# --ignore-missing-imports,--scripts-are-modules

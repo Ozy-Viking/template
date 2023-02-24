@@ -4,3 +4,4 @@
 .mypy_cache/
 poetry.lock
 /docs/build/
+**/__pycache__/
