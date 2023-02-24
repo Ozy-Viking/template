@@ -1,10 +1,10 @@
 [tool.poetry]
-name = "demo-precommit"
+name = "template_package"
 version = "0.1.0"
 description = ""
 authors = ["ozy-viking <zthankin@gmail.com>"]
-readme = "README.md"
-packages = [{include = "demo_precommit"}]
+readme = "README.rst"
+packages = [{include = "template_package"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
@@ -14,8 +14,19 @@ mkdocs = "^1.4.2"
 sphinx = "^6.1.3"
 pre-commit = "^3.1.0"
 mypy = "^1.0.1"
+sphinx-rtd-theme = "^1.2.0"
 
+[tool.mypy]
+mypy_path = '$MYPY_CONFIG_FILE_DIR'
+files = '$MYPY_CONFIG_FILE_DIR\\template_package'# '$MYPY_CONFIG_FILE_DIR\template_package'
+explicit_package_bases = false
+ignore_missing_imports = true
+exclude = [
+    "docs/",
+]
 
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
+# --ignore-missing-imports,--scripts-are-modules

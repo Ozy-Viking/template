@@ -1,0 +1,10 @@
+demo\_precommit package
+=======================
+
+Module contents
+---------------
+
+.. automodule:: demo_precommit
+   :members:
+   :undoc-members:
+   :show-inheritance:
