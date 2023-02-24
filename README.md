@@ -5,4 +5,4 @@
 ---
 Todo:
 1. Automated documentation and push to github pages.
-2.
+2. Ensure committing works correctly.
