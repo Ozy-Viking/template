@@ -29,7 +29,7 @@ def main() -> int:
     """
     The main function for the module.
 
-    Squares the first 50 integer numbers. Then returns 0.
+    Squares the first 50 integer numbers.
 
     Returns:
         int: Exit code

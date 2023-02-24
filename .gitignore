@@ -5,3 +5,4 @@
 poetry.lock
 /docs/build/
 **/__pycache__/
+**_cache/
