@@ -9,7 +9,7 @@
 project = "Template for Projects"
 copyright = "2023, Zack Hankin"
 author = "Zack Hankin"
-release = "0.1.0"
+release = "0.3.0"
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
@@ -19,6 +19,9 @@ extensions = [
     "sphinx.ext.autosummary",
     "sphinx.ext.napoleon",
     "sphinx_rtd_theme",
+    "sphinx.ext.githubpages",
+    "sphinx.ext.viewcode",
+    "myst_parser",
 ]
 
 templates_path = [
@@ -26,6 +29,12 @@ templates_path = [
     "sphinx.ext.duration",
 ]
 exclude_patterns = []
+
+source_suffix = {
+    ".rst": "restructuredtext",
+    ".txt": "markdown",
+    ".md": "markdown",
+}
 
 # Napoleon settings
 # https://www.sphinx-doc.org/en/master/usage/extensions/napoleon.html#module-sphinx.ext.napoleon

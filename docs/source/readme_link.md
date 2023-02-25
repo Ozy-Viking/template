@@ -1,5 +1,4 @@
-Readme
-======
+# README
 
 ```{include} ../../README.md
 ```
