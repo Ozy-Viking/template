@@ -3,6 +3,7 @@ on:
   push:
     branches:
       - main
+      - gh-pages
   pull_request:
   workflow_dispatch:
 
@@ -18,12 +19,12 @@ jobs:
           poetry install --with=docs
       - name: Sphinx build
         run: |
-          poetry run sphinx-build docs/source/ docs/build/html
+          poetry run sphinx-build source_docs/source/ docs/
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/master' }}
         with:
           publish_branch: gh-pages
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: docs/build/html
+          publish_dir: docs/
           force_orphan: true
