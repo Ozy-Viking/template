@@ -17,6 +17,7 @@ This is a template for packages and documentation.
    :caption: Contents:
 
    usage
+   modules
    template_package
 
 Indices and tables

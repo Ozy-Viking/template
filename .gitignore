@@ -3,6 +3,6 @@
 .pytest_cache/
 .mypy_cache/
 poetry.lock
-/docs/build/
 **/__pycache__/
 **_cache/
+_build

@@ -6,3 +6,4 @@
 Todo:
 1. Automated documentation and push to GitHub pages.
 2. Ensure committing works correctly.
+3. Check out readthedocs for hosting.
