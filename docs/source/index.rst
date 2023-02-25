@@ -16,9 +16,9 @@ This is a template for packages and documentation.
    :maxdepth: 2
    :caption: Contents:
 
+   readme_link
    usage
    modules
-   template_package
 
 Indices and tables
 ==================
