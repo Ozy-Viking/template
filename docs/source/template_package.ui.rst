@@ -4,7 +4,7 @@ template\_package.ui package
 Submodules
 ----------
 
-template\_package.ui.accepted\_headers module
+ui.accepted\_headers module
 ---------------------------------------------
 
 .. automodule:: template_package.ui.accepted_headers
