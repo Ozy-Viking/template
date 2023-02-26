@@ -9,7 +9,7 @@
 project = "Template for Projects"
 copyright = "2023, Zack Hankin"
 author = "Zack Hankin"
-release = "0.3.0"
+release = "1.0.0"
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
