@@ -27,3 +27,6 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: _build/
           force_orphan: true
+
+# Pre-modified code from:
+# https://coderefinery.github.io/documentation/gh_workflow/
