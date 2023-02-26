@@ -5,7 +5,7 @@
 ---
 ## Documentation
 
-- All Versions Documentation: [Read the Docs](https://ozy-viking-template.rtfd.io)
-- Current Main Documentation: [GitHub Pages](https://ozy-viking.github.io/template/)
+- Current Main: [GitHub Pages](https://ozy-viking.github.io/template/)
+- All Versions: [Read the Docs](https://ozy-viking-template.rtfd.io)
 
 ---
