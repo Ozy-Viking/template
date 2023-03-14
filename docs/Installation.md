@@ -16,13 +16,17 @@
 
 
 
-If you get an `:::py3 TypeError`
+If you get an `:::py3 TypeError`[^1]
+
+[^1]:
+    This paragraph should be rendered at the bottom.
 
 Here is some code:
 ``` { .yaml .annotate }
-import pymdownx; pymdownx.__version__  # (1)
+import pymdownx; pymdownx.__version__  # [^2]
 ```
-1.  :man_raising_hand: I'm a code annotation! I can contain `code`, __formatted
+[^2]:
+    :man_raising_hand: I'm a code annotation! I can contain `code`, __formatted
     text__, images, ... basically anything that can be written in Markdown.
 
 The mock shebang will be treated like text here: ` #!js var test = 0; `.

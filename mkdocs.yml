@@ -46,6 +46,11 @@ markdown_extensions:
       permalink: '#'
   - tables
   - attr_list
+  - footnotes
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
   - pymdownx.details
   - pymdownx.superfences
   - pymdownx.highlight:
@@ -78,6 +83,8 @@ plugins:
   - tags
   - autorefs
   - mkdocstrings
+  - mike:
+      canonical_version: latest
 
 extra_css:
     - css/custom.css
