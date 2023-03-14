@@ -3,6 +3,7 @@ site_name: Template Project
 
 theme:
   name: material
+  favicon: img/favicon.png
   icon:
     repo: fontawesome/brands/github
     edit: material/pencil
