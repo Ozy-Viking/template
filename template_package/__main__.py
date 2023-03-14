@@ -19,6 +19,9 @@ def square(x: Number | int | float) -> Number:
 
     Returns:
         Number: The square of the given number.
+
+    Raises:
+        TypeError: If the given number is not a number.
     """
     if isinstance(x, int | float):
         x = Number(x)
