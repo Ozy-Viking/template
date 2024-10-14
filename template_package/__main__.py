@@ -5,6 +5,7 @@ Author: Zack Hankin
 
 Started: 23/02/2023
 """
+
 from __future__ import annotations
 
 from .ui import Number
