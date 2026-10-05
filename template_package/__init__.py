@@ -1,6 +1,7 @@
 """
 Template Package
 """
+
 from .__main__ import __doc__ as subdoc
 from .__main__ import square, main
 from .stubby import Pi
